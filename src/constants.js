@@ -18,6 +18,7 @@ import colabLogo from './assets/tech_logo/colab.png';
 import sqlLogo from './assets/tech_logo/sql-server.png';
 import blockchainLogo from './assets/tech_logo/blockchain (1).png';
 import machineLearningLogo from './assets/tech_logo/machine-learning.png';
+import n8nLogo from './assets/tech_logo/n8n.png';
 
 // Experience Section Logo's (commented out since Experience section was removed)
 // import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -68,6 +69,7 @@ export const SkillsInfo = [
       { name: 'Cursor', logo: cursorLogo },
       { name: 'Kiro', logo: kiroLogo },
       { name: 'Colab', logo: colabLogo },
+      {  logo: n8nLogo },
     ],
   },
   {
@@ -194,7 +196,7 @@ export const SkillsInfo = [
       image: skinCancerLogo,
       tags: ["Python", "TensorFlow", "Flask", "HTML", "CSS", "Bootstrap", "OpenCV","NumPy"],
       github: "https://github.com/Aakashsusar/SkinCancerCell",
-      webapp: " ",
+      webapp: "https://skincancer-cell-detection.onrender.com ",
     },
     {
       id: 3,

@@ -40,19 +40,21 @@ const Skills = () => (
             gyroscope={true}
           >
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 w-full">
-              {category.skills.map((skill) => (
+              {category.skills.map((skill, index) => (
                 <div
-                  key={skill.name}
-                  className="flex items-center justify-center space-x-2 bg-transparent border-2 border-gray-700 rounded-3xl py-2 px-2 sm:py-2 sm:px-2 text-center"
+                  key={skill.name || index}
+                  className={`flex items-center justify-center ${skill.name ? 'space-x-2' : ''} bg-transparent border-2 border-gray-700 rounded-3xl py-2 px-2 sm:py-2 sm:px-2 text-center`}
                 >
                   <img
                     src={skill.logo}
-                    alt={`${skill.name} logo`}
-                    className="w-6 h-6 sm:w-8 sm:h-8"
+                    alt={`${skill.name || 'tool'} logo`}
+                    className={skill.name ? "w-6 h-6 sm:w-8 sm:h-8" : "w-16 h-8 sm:w-20 sm:h-10 object-contain"}
                   />
-                  <span className="text-xs sm:text-sm text-gray-300">
-                    {skill.name}
-                  </span>
+                  {skill.name && (
+                    <span className="text-xs sm:text-sm text-gray-300">
+                      {skill.name}
+                    </span>
+                  )}
                 </div>
               ))}
             </div>
