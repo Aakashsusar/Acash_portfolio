@@ -1,34 +1,37 @@
-# 🌐 Animated Portfolio Website
+# 🌐 Aakash Susar - Portfolio Website
 
-A sleek, responsive, and fully customizable **animated portfolio website** built using **React.js** and **Tailwind CSS**. This project gained **27K+ views** on [YouTube]([https://youtube.com/your-video-link](https://youtu.be/ypSc8HEurGQ?si=yI3GJCye3sAKoemW)) – loved by developers and students for its modern design and clean code.
+A sleek, responsive, and fully customizable **animated portfolio website** built using **React.js** and **Tailwind CSS**. Showcasing my projects, skills, and professional journey as a Full-Stack Developer.
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio Live](https://tarunkaushik.vercel.app/)
+🔗 [View Portfolio Live](#) _(Add your deployed URL here)_
 
 ## 🛠️ Tech Stack
 
 - ⚛️ React.js
 - 🎨 Tailwind CSS
-- 💾 Vercel(for deployment)
+- 📧 EmailJS (for contact form)
+- 🚀 Vite (build tool)
+- 💾 Vercel/Netlify (for deployment)
 
 ## 📁 Features
 
 - Responsive design for all screen sizes 📱💻
 - Smooth scroll and animation effects ✨
 - Clean and modular React components 🧩
-- Easy to customize with Tailwind utility classes 🎯
-- Professional sections: About, Skills, Projects, Contact, etc. 👨‍💻
-
+- Professional sections: About, Skills, Projects, Education, Contact 👨‍💻
+- Downloadable resume
+- Working contact form with EmailJS integration
+- Project showcase with live demos and GitHub links
 
 ## 🧑‍💻 How to Use
 
 ### 1. Clone the Repo
 
 ```bash
-git clone [https://github.com/codingmastr/Tarun-s-Portfolio.git]
-cd your-repo-name
-````
+git clone https://github.com/Aakashsusar/portfolio.git
+cd portfolio
+```
 
 ### 2. Install Dependencies
 
@@ -36,10 +39,10 @@ cd your-repo-name
 npm install
 ```
 
-### 3. Run the App
+### 3. Run the Development Server
 
 ```bash
-npm start
+npm run dev
 ```
 
 ### 4. Build for Production
@@ -48,12 +51,44 @@ npm start
 npm run build
 ```
 
-## 📹 YouTube Tutorial
+### 5. Preview Production Build
 
-Watch the full build on YouTube:
-📺 [React Portfolio Website - 27K+ Views](https://youtu.be/ypSc8HEurGQ?si=winjJhc9qzNrCqLD)
+```bash
+npm run preview
+```
 
-## 🌟 Credits
+## 📂 Project Structure
 
-This project was created with ❤️ by [Tarun Kaushik](https://tarunkaushik.vercel.app/).
-If you like it, feel free to ⭐ this repository and share!
+```
+portfolio/
+├── src/
+│   ├── assets/          # Images and logos
+│   ├── components/      # React components
+│   ├── constants.js     # Portfolio data
+│   └── App.jsx         # Main app component
+├── public/             # Static files
+└── package.json        # Dependencies
+```
+
+## 🎯 Customization
+
+To customize this portfolio for yourself:
+
+1. Update `src/constants.js` with your information
+2. Replace images in `src/assets/` with your own
+3. Update the resume file in `public/`
+4. Configure EmailJS in the Contact component
+
+## 🌟 About Me
+
+I'm **Aakash Susar**, a Full-Stack Developer passionate about building scalable web applications. I have experience with the MERN stack, Python, and modern web technologies.
+
+## 📫 Contact
+
+- LinkedIn: [Aakash Susar](https://www.linkedin.com/in/aakashsusar4/)
+- GitHub: [Aakashsusar](https://github.com/Aakashsusar)
+- Instagram: [@aakash_susar](https://www.instagram.com/aakash_susar/)
+
+---
+
+Made with ❤️ by Aakash Susar
